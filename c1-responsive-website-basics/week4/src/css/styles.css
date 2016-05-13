@@ -1,0 +1,32 @@
+.header {
+  font-family: 'Lora', serif;
+  font-size: 52px;
+  font-weight: bold;
+  padding: 19px;
+}
+
+.content {
+  margin: 0 0px;
+  padding: 19px;
+}
+
+.btn {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  border-radius: 0px;
+  width: 100px;
+  max-width: 40%;
+}
+
+#picture {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 19px;
+  background: grey;
+}
+
+.img-blur {
+  -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+   filter: blur(2px);
+}

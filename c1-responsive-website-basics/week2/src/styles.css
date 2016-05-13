@@ -1,0 +1,9 @@
+/* selector that matches the h1 tag */
+h1 {
+  /* displays the text using a sans-serif font */
+  font-family: sans-serif;
+  /* displays the text using a red color */
+  color: red;
+  /* underlines the text inside the h1 tag */
+  text-decoration: underline;
+}
