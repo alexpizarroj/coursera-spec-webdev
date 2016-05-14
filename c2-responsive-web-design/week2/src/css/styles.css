@@ -1,0 +1,30 @@
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 52px;
+  font-weight: bold;
+  padding: 19px;
+  padding-left: 0px;
+}
+
+blockquote {
+  font-size: 32px;
+}
+
+.content {
+  padding: 19px;
+  padding-top: 0px;
+}
+
+.img-profile {
+  width: 175px;
+  height: auto;
+}
+
+.task-title {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+}
