@@ -1,0 +1,48 @@
+/* put your css code here */
+
+.preview-container {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: solid 1px grey;
+  margin-bottom: 19px;
+  margin-right: 9px;
+}
+
+.preview-container:hover {
+  background-color: #eee;
+  text-decoration: none !important;
+}
+
+.preview-title {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.preview-img {
+  width: 100%;
+  height: auto;
+  border-bottom: solid 1px grey;
+}
+
+.specie-img {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9px;
+  width: 100%;
+  height: auto;
+}
+
+/*
+** Masonry Grid fluidness
+*/
+
+/* 1 column on smaller screens */
+.grid-sizer, .grid-item { width: 100%; }
+
+@media screen and (min-width: 768px) {
+  /* 2 columns on larger screens */
+  .grid-sizer, .grid-item { width: 50%; }
+}
